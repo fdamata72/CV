@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Practices</title>
+</head>
+<h1> My Practice's Form</h1>
+
+<body>
+  <form class="" action="mailto:fdamata72.edu@gmail.com" method="post" enctype="text/plain">
+    <label for="fname:">First Name</label>
+    <input type="text" name="fname" value="" required> <br>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" value="" required> <br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"> <br>
+
+    <label for="telph"> Phone Number</label>
+    <input type="tel" name="telph" value=""> <br>
+
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"> <br>
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a small car</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a Toyota car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a bike</label> <br>
+
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor" value="blue"> <br>
+
+    <label for="myfile">Select a CV's file:</label>
+    <input type="file" id="myfile" name="myfile"> <br>
+
+    <label for="gsearch">What dou you want to search in Google:</label>
+    <input type="search" id="gsearch" name="gsearch"> <br>
+
+    <label for="browsers">Withc Explorer do you prefere?</label>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist> <br>
+    <label for="message">Please, type your Message here</label>
+    <textarea name="message" rows="10" cols="50"></textarea>
+
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
